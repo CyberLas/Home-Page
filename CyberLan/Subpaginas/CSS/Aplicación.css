@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+}
+
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+
+#fondo-imag {
+    position:fixed;
+    top:-50%;
+    left:-50%;
+    width:200%;
+    height:200%;
+}
+
+
+#fondo-imag img {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    min-width:50%;
+    min-height:50%;
+}
+
+
+#Titulo{
+ 	font-size: 430%;
+	margin-top: 1.8%;
+	font-family: 'Lobster', cursive;
+    text-align: center;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:default;
+    }
+
+
+#Play-Store{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+
+#Appstore{
+    margin-top: -10.7%;
+    margin-left: 60%;
+	width: 30%;
+}
+
+
+#Android{
+    	margin-top: 10%;
+    	margin-left: 23%;
+}
+
+
+#Apple{
+   	margin-top: -14.4%;
+   	margin-left: 65%;
+   	margin-bottom: -150%;
+}
+
+
+#final{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 32px;
+    background: #092B65 ;
+    border-top: 2px solid gray;
+    z-index:2000;
+    font-family: 'Lobster', cursive;
+    text-align:right;
+    font-size:17px;
+}
+ 

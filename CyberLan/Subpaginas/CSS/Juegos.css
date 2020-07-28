@@ -1,0 +1,23 @@
+.icon-flappy{
+	position: fixed;
+	z-index: 2000;
+	margin-left: 150px;	
+	margin-top: 100px;
+
+}
+
+
+.icon-piedra{
+	position: fixed;
+	z-index: 2000;
+	margin-top: 370px;
+	margin-left: 150px;
+}
+
+
+.icon-laberinto{
+	position: fixed;
+	z-index: 2000;
+	margin-top: 100px;
+	margin-left: 450px;
+}
